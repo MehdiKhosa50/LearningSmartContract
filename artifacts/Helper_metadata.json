@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SelfDestruct.sol": "Helper"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SelfDestruct.sol": {
+			"keccak256": "0xfdb876938a3719dcb7761703ce6be62b679bf3e0e4e52920e9083d2cd65d6a80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3bec0d2125d0b1410222f915e22931facbeff4e3d9ae1771d881207b21ae66e6",
+				"dweb:/ipfs/Qmf9hbJVNwHCe6SwD5pAxHKP9MDFVF36Gan1Y5xbY7awKo"
+			]
+		}
+	},
+	"version": 1
+}

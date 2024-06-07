@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f80fd5b50603e80601a5f395ff3fe60806040525f80fdfea2646970667358221220155998b15b36b5aa9ab063c3718667298ccb5687bf30e35bf4beb503bcdf7e9864736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ISZERO MSIZE SWAP9 0xB1 JUMPDEST CALLDATASIZE 0xB5 0xAA SWAP11 0xB0 PUSH4 0xC3718667 0x29 DUP13 0xCB JUMP DUP8 0xBF ADDRESS 0xE3 JUMPDEST DELEGATECALL 0xBE 0xB5 SUB 0xBC 0xDF PUSH31 0x9864736F6C634300081A003300000000000000000000000000000000000000 ",
+			"sourceMap": "61:29:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea2646970667358221220155998b15b36b5aa9ab063c3718667298ccb5687bf30e35bf4beb503bcdf7e9864736f6c634300081a0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 ISZERO MSIZE SWAP9 0xB1 JUMPDEST CALLDATASIZE 0xB5 0xAA SWAP11 0xB0 PUSH4 0xC3718667 0x29 DUP13 0xCB JUMP DUP8 0xBF ADDRESS 0xE3 JUMPDEST DELEGATECALL 0xBE 0xB5 SUB 0xBC 0xDF PUSH31 0x9864736F6C634300081A003300000000000000000000000000000000000000 ",
+			"sourceMap": "61:29:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "64",
+				"totalCost": "12464"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

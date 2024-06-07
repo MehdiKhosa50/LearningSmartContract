@@ -1,0 +1,164 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "depositedTo",
+						"type": "address"
+					}
+				],
+				"name": "addEventBalance",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "Deposit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "depositers",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTotalBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "kill",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "recipent",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/PayableFunction.sol": "Bank"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/PayableFunction.sol": {
+			"keccak256": "0x68649b83e2f79e0876c163ed7e4be2bc359242507f2a467577a8c94fdfc4e262",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://14602d26da3c1afceee39e7dc7905f123e185e54ed63b66e2e7e066316f0b8f3",
+				"dweb:/ipfs/QmNpa2zabWAF8zKmz4TjN94MxdT2RCumLebJ3dtLwFee4V"
+			]
+		},
+		"contracts/SelfDestruct.sol": {
+			"keccak256": "0x3affbbfaa9a182716ba78369efbbac45b789cda0a65f174e168f6da26d89ffff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09ba6ddcc7abca83cbd75c6f78e4281c6fa226ae2bc9c2705d9530ec6067f685",
+				"dweb:/ipfs/QmbVXhWgWFzTMxHpJscymQhBCQnvbLukiE5V8cWoCqd59X"
+			]
+		},
+		"contracts/ownable.sol": {
+			"keccak256": "0xda78220278950d845ce12067eb36b3a0fc3f0511928878de877ebc5cc84167d3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6d698e4f34d89b99c4e328a86ca71da0287f6dd605bbe52e8e76bc24303331e7",
+				"dweb:/ipfs/QmbCKz1kCpwpJFc3TjoqgeFUrkfkEtoV3vxVQLuRAviGDs"
+			]
+		}
+	},
+	"version": 1
+}

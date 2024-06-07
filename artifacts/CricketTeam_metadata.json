@@ -1,0 +1,108 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "PlayersData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "lastName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "isSmoker",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_firstName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_lastName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isSmoker",
+						"type": "bool"
+					}
+				],
+				"name": "addPlayer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/struct.sol": "CricketTeam"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/struct.sol": {
+			"keccak256": "0xe42b8ee475069a0e936bfa975af71ffde41939cce03a49271ae2cfa400b35a7a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c26d9e1eccb0262e16ea16e70f14c3cf75786eb5b8592e74d2f194e9ece4a77e",
+				"dweb:/ipfs/QmXTXwbsxz2GjG6qVk3wQ9yBhim8RHAyto1MAoEkfCGDDF"
+			]
+		}
+	},
+	"version": 1
+}
